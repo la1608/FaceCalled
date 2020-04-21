@@ -1,0 +1,109 @@
+	
+	*{ 
+	/*Resetando os espaçamentos */
+	margin:0;
+	padding:0px;
+	}
+
+    .contentTotal{
+        width: 100%;
+
+    }
+
+    .body{
+        background-color: #efefef;
+    }
+    
+     .rodape{
+        position:absolute;
+        bottom:60px;
+        width:100%; 
+        height: 100px; 
+        font-family: 'Arial'; 
+        background-color: #161640;
+     }
+     
+     .footer{
+        position:absolute;
+        bottom:0px;
+        width:100%; 
+        height: 60px; 
+        font-family: 'Arial'; 
+        background-color: #1b1b50;
+     }
+    .clearfix:after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+.menu{
+	width:100%; 
+	height: 60px; 
+	background-color:#1b1b50; 
+	font-family: 'Arial'; 
+	}
+
+.menu ul{
+/*alterando lista */
+	list-style: none;
+	position: relative;
+		}
+
+.menu ul li{
+/*alterando os itens da lista */
+width: 150px;
+float:right;
+		   }
+
+.menu a {
+/* links*/	
+	padding: 15px;
+	display: block;
+	text-decoration: none;
+    text-align: center;
+    height: 30px; 
+    border-radius: 1px;
+    background-color: #1b1b50;
+	color:#fff;
+		}
+
+          
+
+.menu ul ul{
+	/* tirar os subitens*/
+	position: absolute;
+	visibility: hidden; <!-- deixar invisivel o subitem -->
+			}
+
+.menu ul li:hover ul {
+	/*quando passar o mouse aparecer os subitens  */
+    visibility: visible;
+	width: 150px;
+					}
+
+.menu a:hover{
+	/*mudar cor quando passar o mouse aparecer os subitens */
+    background-color: #d75f08;
+    height: 30px; 
+	color: white;
+			}
+
+.menu ul ul li {
+	float: none;
+	border-bottom: solid 1px #ccc;
+				}
+
+
+.menu ul ul li a 	{
+	/*  mudar cor quando o mouse passar encima*/
+	background-color: #d75f08;
+					}
+
+.menu ul label {
+	position: center;
+	color: #f4f4f4;
+}					
+
+
+}

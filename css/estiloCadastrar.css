@@ -1,0 +1,52 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+
+	background-color:white;
+	background-position: 50% 70%;
+	color:white;
+	font-family: arial;
+
+}
+
+
+div#corpo-form{
+	background-color: #1b1b50;
+	border-radius: 15px;
+	width: 600px;
+	height: 550px;
+	margin: -30px auto 0px auto;
+}
+
+div#corpo-form h1{
+text-align: center;
+padding: 20px;
+
+}
+
+div#corpo-form label{
+	font-size: 16pt;
+	margin-left: 30px;
+
+	
+	}
+
+
+input[type=submit]{
+background-color: #d75f08;
+border:none;
+color: white;
+height: 50px;
+width: 200px;
+border-radius: 10px;
+margin-left: 200px;
+margin-top: -20px;
+cursor:pointer;
+padding: 8px 15px;
+
+
+}
+
